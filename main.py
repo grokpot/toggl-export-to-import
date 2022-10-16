@@ -15,5 +15,6 @@ def main(input, output, switch):
     # Write the output file
     df.to_csv(output, index=False)
 
+
 if __name__ == "__main__":
     main()
